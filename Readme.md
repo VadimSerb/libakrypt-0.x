@@ -54,8 +54,8 @@ make
 
 2. Создание си-файла следующего содержания:
 
-#include <stdio.h>    
-#include <libakrypt.h>
+    #include <stdio.h>    
+    #include <libakrypt.h>
 
 
     int main()                  
