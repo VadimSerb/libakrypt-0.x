@@ -563,8 +563,10 @@ int ak_sha3_tests() {
 /*! \brief Мини-функция для вывода результата хэширования на консоль: выводит байты, разделенные 
    между собой пробелом                                                                            */
 /* ----------------------------------------------------------------------------------------------- */
+/*
 void ak_sha3_get_hash(ak_keccak sha, ak_uint8 answer[]) {
     ak_sha3_function(sha, answer);
     int i;
-    for(i=0; i< sha.ftype / 8; i++) printf("% 0x\", answer[i]);
+    for(i=0; i< sha.ftype / 8; i++) printf("%0x\", answer[i]);
 }
+*/
