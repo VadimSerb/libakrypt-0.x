@@ -74,3 +74,9 @@ int main()
 
     ./a.out
 ```
+
+--------------------------------------------------------------------
+
+Скриншоты с результатами работы программы:
+
+![Альтернативный текст](https://sun9-47.userapi.com/impg/L-e3no50oGHDcwjKFek12yvwbTAw3gfLIG9PMw/I0D-SijQJE4.jpg?size=795x598&quality=96&proxy=1&sign=beb3fec1ee1e3d7c713113fea7bceab4&type=album)
