@@ -52,4 +52,21 @@ cd build
 cmake -DCMAKE_C_FLAGS="-march=native" ../libakrypt-0.x
 make
 
-2. 
+2. Создание си-файла следующего содержания:
+
+#include <stdio.h>    
+#include <libakrypt.h>
+
+
+int main()                  
+{                
+
+    ak_sha3_tests();
+
+
+    return 0;
+}
+
+3. Компиляция и линковка со статической библиотекой:
+gcc /путь/к/main.c /путь/к/библиотеке/libakrypt.a
+./a.out
