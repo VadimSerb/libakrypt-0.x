@@ -47,11 +47,12 @@
 
 Инструкция по сборке: (проверял на Ubuntu 64)
 1. Компиляция и сборка библиотеки
+```
 mkdir build
 cd build
 cmake -DCMAKE_C_FLAGS="-march=native" ../libakrypt-0.x
 make
-
+```
 2. Создание си-файла следующего содержания:
 
 ```
