@@ -61,10 +61,10 @@ make
 int main()                  
 {                
 
-    ak_sha3_tests();
+   ak_sha3_tests();
 
 
-    return 0;
+   return 0;
 }
 
 3. Компиляция и линковка со статической библиотекой:
