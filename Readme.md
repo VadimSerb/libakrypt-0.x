@@ -83,7 +83,5 @@ int main()
 
 ![Альтернативный текст](https://sun9-28.userapi.com/impg/HdZiAC65JXysdKvTeRNl6EE4VQDghf1vFn0sOQ/7kaQanlc7VE.jpg?size=797x598&quality=96&proxy=1&sign=4ac642876f15679f70c420a46ebf7d94&type=album)
 
-На последнем скриншоте библиотека на ОС Windows не установлена. Поставлена как подмодуль.
-
-![Альтернативный текст](https://sun9-9.userapi.com/impg/7hBaqcao35WDsPTal9YT_PnFGzjA_fEj95SYhg/bxxk2DU_iYw.jpg?size=1743x931&quality=96&proxy=1&sign=72a6337420799f46999896faf3c0270f&type=album)
+![Альтернативный текст](https://sun9-53.userapi.com/impg/m9tzXIrACVUZy-4vQk4ROnFt2QMkZcHfk-LZvg/9ayXUWVrm_Q.jpg?size=668x611&quality=96&proxy=1&sign=d1ea46ee4441e6f5ee48712ce99661ee&type=album)
 
