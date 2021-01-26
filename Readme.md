@@ -41,5 +41,5 @@ static int comparation(ak_uint8 answer[], ak_uint8 result[], int arraysize)
 int ak_sha3_tests() - функция тестирования, выполняющая по 4 теста для каждой функции (SHA-3-512, SHA-3-384, SHA-3-256, SHA-3-224)
 
 --------------------------------------------------------------------
-В качестве тестовых векторов было взято два примера из Википедии ("The quick brown fox jumps over the lazy dog" с точкой в конце и без), один непосредственно с https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines/example-values на 1600 бит (остальные примеры включают в себя не кратное 8 количество бит (30, 1605б 1630) - в данной реализации принимается, что на вход подаются целые байты), один - определенный через онлайн генератор хэша - https://emn178.github.io/online-tools/sha3_512.html 
+В качестве тестовых векторов было взято два примера из Википедии ("The quick brown fox jumps over the lazy dog" с точкой в конце и без), один непосредственно с https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines/example-values на 1600 бит (остальные примеры включают в себя не кратное 8 количество бит (5, 30, 1605, 1630) - в данной реализации принимается, что на вход подаются целые байты), один - определенный через онлайн генератор хэша - https://emn178.github.io/online-tools/sha3_512.html 
 
