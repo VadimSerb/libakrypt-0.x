@@ -11,37 +11,35 @@
 
 --------------------------------------------------------------------
 Функции, определенные в #### ak_keccak.c ####
-{
 
-static int mod(int a, int b)
+    static int mod(int a, int b)
 
-static ak_uint64 rotation(ak_uint64 x, int numBits) 
+    static ak_uint64 rotation(ak_uint64 x, int numBits) 
 
-static inline void Theta(ak_uint64 A[5][5])
+    static inline void Theta(ak_uint64 A[5][5])
 
-static inline void Ro(ak_uint64 A[5][5])
+    static inline void Ro(ak_uint64 A[5][5])
 
-static inline void Pi(ak_uint64 A[5][5])
+    static inline void Pi(ak_uint64 A[5][5])
 
-static inline void Chi(ak_uint64 A[5][5])
+    static inline void Chi(ak_uint64 A[5][5])
 
-static inline void Iota(ak_uint64 A[5][5], int i)
+    static inline void Iota(ak_uint64 A[5][5], int i)
 
-static inline void three_dimensional_array(ak_keccak sha, ak_uint64 A[5][5])
+    static inline void three_dimensional_array(ak_keccak sha, ak_uint64 A[5][5])
 
-static inline void block_filling(ak_keccak *sha, unsigned long long int N, int bl)
+    static inline void block_filling(ak_keccak *sha, unsigned long long int N, int bl)
 
-static inline void xor_block(ak_keccak* sha)
+    static inline void xor_block(ak_keccak* sha)
 
-static inline void res_update(ak_keccak* sha, ak_uint64 A[5][5])
+    static inline void res_update(ak_keccak* sha, ak_uint64 A[5][5])
 
-int ak_sha3_function(ak_keccak sha, ak_uint8 answer[]) - включает в себя реализации SHA-3-512, SHA-3-384, SHA-3-256, SHA-3-224 в зависимости от начальных параметров структуры
+    int ak_sha3_function(ak_keccak sha, ak_uint8 answer[]) - включает в себя реализации SHA-3-512, SHA-3-384, SHA-3-256, SHA-3-224 в зависимости от начальных параметров структуры
 
-static int comparation(ak_uint8 answer[], ak_uint8 result[], int arraysize)
+    static int comparation(ak_uint8 answer[], ak_uint8 result[], int arraysize)
 
-int ak_sha3_tests() - функция тестирования, выполняющая по 4 теста для каждой функции (SHA-3-512, SHA-3-384, SHA-3-256, SHA-3-224) 
-}
-
+    int ak_sha3_tests() - функция тестирования, выполняющая по 4 теста для каждой функции (SHA-3-512, SHA-3-384, SHA-3-256, SHA-3-224) 
+    
 --------------------------------------------------------------------
 В качестве тестовых векторов было взято два примера из Википедии ("The quick brown fox jumps over the lazy dog" с точкой в конце и без), один непосредственно с https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines/example-values на 1600 бит (остальные примеры включают в себя не кратное 8 количество бит (5, 30, 1605, 1630) - в данной реализации принимается, что на вход подаются целые байты), один - определенный через онлайн генератор хеша - https://emn178.github.io/online-tools/sha3_512.html 
 
