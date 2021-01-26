@@ -860,7 +860,7 @@ extern "C" {
  /*! \brief Единая функция для получения хеша, включающая SHA-224, 256, 384, 512                   */
  dll_export int ak_sha3_function( ak_keccak, ak_uint8[]);
  dll_export int ak_sha3_tests();
- //*dll_export void ak_sha3_get_hash();*/
+ //*dll_export void ak_sha3_get_hash(); не нужна*/
  
 /* ----------------------------------------------------------------------------------------------- */
 /*! \brief Контекст бесключевой функции хеширования. */
