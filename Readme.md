@@ -12,7 +12,7 @@
 --------------------------------------------------------------------
 Функции, определенные в #### ak_keccak.c ####
 
-    static int mod(int a, int b)
+    +static int mod(int a, int b)
 
     static ak_uint64 rotation(ak_uint64 x, int numBits) 
 
